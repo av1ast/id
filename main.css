@@ -2,7 +2,11 @@
 
 body {
   background: rgb(255,38,0);
-  background: linear-gradient(360deg, rgba(255,38,0,1) 0%, rgba(255,184,0,1) 100%);
+  background: linear-gradient(360deg, rgba(255,38,0,1) 0%, rgba(255,184,0,1) 100%) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: white;
   font-family: 'Nunito', sans-serif;
 }
